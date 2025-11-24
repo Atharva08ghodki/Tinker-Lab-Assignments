@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> SIT Nagpur News Portal </title>
+<style>
+  body {
+	font-family: Times New Roman;
+	margin: 0;
+	background-color: #f8f8f8;
+       }
+
+header {
+	background-color: #3a6ea5;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-size: 22px;
+	font-weight: bold;
+       }
+
+   nav {
+	background-color: #e6e6e6;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+       }
+
+ nav a {
+	text-decoration: none;
+	color: black;
+	margin: 0 15px;
+	font-weight: bold;
+       }
+
+  nav a: hover {
+		color: #3a6ea5;
+	       }
+
+  .container {
+	      display: flex;
+	      justify-content: space-between;
+	      align-items: flex-start;
+	      padding: 30px 60px;
+	     }
+
+  .tech-news {
+	      width: 30%;
+	      background: white;
+	      padding: 20px;
+	      border-radius: 8px;
+	      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	     }
+
+  .tech-news h2 {
+		 text-decoration: none;
+		 color: #3a6ea5;
+		 font-weight: bold;
+		}
+
+
+  .register h2 {
+		color: #3a6ea5;
+	       }
+
+  .register button {
+		    background-color: #3a6ea5;
+		    color: white;
+		    border: none;
+		    padding: 10px 20px;
+		    border-radius: 5px;
+		    cursor: pointer;
+		    font-size: 16px;
+		   }
+
+  .register button: hover {
+			   background-color: #2c528f;
+			  }
+
+  .middle-text {
+		width: 30%;
+		background: #222;
+		color: white;
+		padding: 15px;
+		border-radius: 8px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 16px;
+		overflow: hidden;
+		white-space: nowrap;
+	       }
+
+  .middle-text span {
+		     display: inline-block;
+		     animation: scrollText 10s linear infinite;
+		    }
+
+  @keyframes scrolltext {
+			 from { transform: translateX(100%); }
+			   to { transform: translateX(-100%);}
+			}
+
+footer {
+	background-color: #3a6ea5;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
+       }
+</style>
+</head>
+</body>
+
+<!--Header-->
+	<header> SIT Nagpur News Portal </header>
+
+<!--Navigation-->
+  <nav>
+	<a href="#"> SIT WEBSITE </a>
+	<a href="#"> LATEST NEWS </a>
+	<a href="#"> CONTACT US </a>
+  </nav>
+
+<!--Main Content-->
+   <div class="Container">
+  <div class="tech-news">
+	<h2><u> Tech News </u></h2>
+	<p> Stay updated on Technology trends and AI advancements </p>
+	<a href= "#"><img src= "https://openai.com/favicon.ico" alt="Open  AI Logo"> Open AI </a>
+  </div>
+
+<!--Middle section-->
+  <div class="middle">
+  <div class="marquee box">
+  <marquee
+  behaviour= "scroll"
+  direction= "left"
+  scrollamount= "5"
+  <span> 📢 Upcoming Events: Hackathon | Industrial Visit | Workshop </span>
+  </marquee>
+  </div>
+
+<!--Right section-->
+  <div class= "right">
+	<h2><u> Register Now </u></h2>
+	<p> Click below to join Upcoming events </p>
+	<button
+	 class="button"> Register </button>
+  </div>
+
+<!--Footer-->
+  <footer>
+	Contact: info@sitnagpur.ac.in |
+	Phone: +91-1234567890
+  </footer>
+
+</body>
+</html>
